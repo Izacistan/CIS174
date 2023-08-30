@@ -1,0 +1,84 @@
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\appsettings.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.staticwebassets.runtime.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.exe
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.deps.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.runtimeconfig.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.dll
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.pdb
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.AssemblyInfoInputs.cache
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.AssemblyInfo.cs
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.csproj.CoreCompileInputs.cache
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.RazorAssemblyInfo.cache
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.RazorAssemblyInfo.cs
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.Ch02FutureValueHillaker.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.build.Ch02FutureValueHillaker.props
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ch02FutureValueHillaker.props
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ch02FutureValueHillaker.props
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\scopedcss\bundle\Ch02FutureValueHillaker.styles.css
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.dll
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\refint\Ch02FutureValueHillaker.dll
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.pdb
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.genruntimeconfig.cache
+C:\Users\hilla\source\repos\Ch02FutureValueHillaker\obj\Debug\net6.0\ref\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\appsettings.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.staticwebassets.runtime.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.exe
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.deps.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.runtimeconfig.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.pdb
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.AssemblyInfoInputs.cache
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.AssemblyInfo.cs
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.csproj.CoreCompileInputs.cache
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.RazorAssemblyInfo.cache
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.RazorAssemblyInfo.cs
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.Ch02FutureValueHillaker.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.build.Ch02FutureValueHillaker.props
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ch02FutureValueHillaker.props
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ch02FutureValueHillaker.props
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\scopedcss\bundle\Ch02FutureValueHillaker.styles.css
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\refint\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.pdb
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.genruntimeconfig.cache
+C:\Users\hilla\CIS174\Ch02FutureValueHillaker\obj\Debug\net6.0\ref\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\appsettings.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.staticwebassets.runtime.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.exe
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.deps.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.runtimeconfig.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\bin\Debug\net6.0\Ch02FutureValueHillaker.pdb
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.AssemblyInfoInputs.cache
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.AssemblyInfo.cs
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.csproj.CoreCompileInputs.cache
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.RazorAssemblyInfo.cache
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.RazorAssemblyInfo.cs
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.Ch02FutureValueHillaker.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.build.Ch02FutureValueHillaker.props
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ch02FutureValueHillaker.props
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ch02FutureValueHillaker.props
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\scopedcss\bundle\Ch02FutureValueHillaker.styles.css
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\refint\Ch02FutureValueHillaker.dll
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.pdb
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\Ch02FutureValueHillaker.genruntimeconfig.cache
+C:\Users\hilla\CIS174\Module 1\Topic 1\MVC Lab\Ch02FutureValueHillaker\obj\Debug\net6.0\ref\Ch02FutureValueHillaker.dll
