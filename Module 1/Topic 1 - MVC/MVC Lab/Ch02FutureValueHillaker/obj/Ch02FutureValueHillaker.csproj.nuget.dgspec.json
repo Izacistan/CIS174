@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\Ch02FutureValueHillaker\\Ch02FutureValueHillaker.csproj": {}
+    "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\CH02FutureValueHillaker\\Ch02FutureValueHillaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\Ch02FutureValueHillaker\\Ch02FutureValueHillaker.csproj": {
+    "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\CH02FutureValueHillaker\\Ch02FutureValueHillaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\Ch02FutureValueHillaker\\Ch02FutureValueHillaker.csproj",
+        "projectUniqueName": "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\CH02FutureValueHillaker\\Ch02FutureValueHillaker.csproj",
         "projectName": "Ch02FutureValueHillaker",
-        "projectPath": "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\Ch02FutureValueHillaker\\Ch02FutureValueHillaker.csproj",
+        "projectPath": "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\CH02FutureValueHillaker\\Ch02FutureValueHillaker.csproj",
         "packagesPath": "C:\\Users\\hilla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\Ch02FutureValueHillaker\\obj\\",
+        "outputPath": "C:\\Users\\hilla\\OneDrive - Des Moines Area Community College\\DMACC Files\\2023\\Fall 2023\\Advanced C# Programming - CIS175\\Module 1\\Topic 1 - MVC\\MVC Lab\\CH02FutureValueHillaker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hilla\\AppData\\Roaming\\NuGet\\NuGet.Config",
