@@ -1,18 +1,20 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    color: navy;
+    font-size: 6em;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+    padding-right: 1em;
+}
+
+div {
+    margin-bottom: 0.5em;
 }
