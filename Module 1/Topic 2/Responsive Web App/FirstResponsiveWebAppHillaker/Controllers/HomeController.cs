@@ -16,11 +16,12 @@ namespace FirstResponsiveWebAppHillaker.Controllers
             if (ModelState.IsValid)
             {
                 ViewBag.Name = model.Name;
+                ViewBag.CurrentAge = model.CalcCurrentAge();
                 ViewBag.Age = model.CalcAge();
             }
             else
             {
-                ViewBag.Age = 0;
+                ViewBag.CurrentAge = 0;
             }
             return View(model);
         }
