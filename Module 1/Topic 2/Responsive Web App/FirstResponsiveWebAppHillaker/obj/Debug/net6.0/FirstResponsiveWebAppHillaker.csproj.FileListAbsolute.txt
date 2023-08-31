@@ -221,3 +221,4 @@ C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppH
 C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillaker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillaker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillaker\obj\Debug\net6.0\FirstResponsiveWebAppHillaker.csproj.CopyComplete
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillaker\bin\Debug\net6.0\libman.json
