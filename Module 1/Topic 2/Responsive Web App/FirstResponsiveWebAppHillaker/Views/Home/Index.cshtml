@@ -1,0 +1,35 @@
+﻿@model CalcAgeModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Age Calculator</title>
+</head>
+<body>
+    <h1>How Old Are You?</h1>
+    <p>Please, fill out the form below with the proper information.</p>
+    <p>Make sure to follow these rules:</p>
+    <ul>
+        <li>Don't use numbers or special characters for your name</li>
+        <li>Input a whole number for your birth year</li>
+    </ul>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All"></div>
+
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" />
+
+        <label input asp-for="BirthYear">Birth Year:</label>
+        <input input asp-for="BirthYear" />
+
+        <button type="submit">Calculate Age</button>
+        <a asp-action="Index">Clear</a>
+    </form>
+    <p>Name: @ViewBag.Name</p>
+    <p>Age: @ViewBag.Age</p>
+</body>
+</html>
