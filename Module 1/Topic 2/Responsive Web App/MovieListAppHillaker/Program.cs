@@ -1,7 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using MovieListAppHillaker.Models;
 
+var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+// Add EF Core DI
+builder.Services.AddDbContext<MovieContext>(options =>
+options.UseSqlServer(
+builder.Configuration.GetConnectionString(
+"MovieContext")));
 
 var app = builder.Build();
 
