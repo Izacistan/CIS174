@@ -12,7 +12,7 @@ using MovieListAppHillaker.Models;
 namespace MovieListAppHillaker.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    [Migration("20230905185606_Initial")]
+    [Migration("20230905190702_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
