@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieListAppHillaker", "MovieListAppHillaker.csproj", "{276ED443-70E4-45E4-AA8A-A614A281DF57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{276ED443-70E4-45E4-AA8A-A614A281DF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276ED443-70E4-45E4-AA8A-A614A281DF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276ED443-70E4-45E4-AA8A-A614A281DF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276ED443-70E4-45E4-AA8A-A614A281DF57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E82EDD5-677A-4C96-867E-13A733DDD740}
+	EndGlobalSection
+EndGlobal
