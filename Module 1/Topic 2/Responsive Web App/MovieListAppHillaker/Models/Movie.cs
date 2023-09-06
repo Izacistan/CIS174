@@ -21,6 +21,8 @@ namespace MovieListAppHillaker.Models
         [ValidateNever]
         public Genre Genre { get; set; } = null!;
 
+        public string Slug => Name?.Replace(' ', '-').ToLower() + '-' + Year?.ToString();
+
     }
 
 }

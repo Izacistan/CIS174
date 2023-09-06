@@ -4,6 +4,13 @@ using MovieListAppHillaker.Models;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
+});
+
 // Add EF Core DI
 builder.Services.AddDbContext<MovieContext>(options =>
 options.UseSqlServer(
@@ -29,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}");
 
 app.Run();
