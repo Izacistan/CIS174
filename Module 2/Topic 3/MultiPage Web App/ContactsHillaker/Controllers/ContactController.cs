@@ -14,7 +14,7 @@ namespace ContactsHillaker.Controllers
         public IActionResult Add()
         {
             ViewBag.Action = "Add";
-            ViewBag.Genres = context.Genres.OrderBy(g => g.Name).ToList();
+            ViewBag.Address = context.Contacts.OrderBy(g => g.Name).ToList();
             return View("Edit", new Contact());
         }
 
@@ -22,7 +22,7 @@ namespace ContactsHillaker.Controllers
         public IActionResult Edit(int id)
         {
             ViewBag.Action = "Edit";
-            ViewBag.Genres = context.Genres.OrderBy(g => g.Name).ToList();
+            ViewBag.Address = context.Contacts.OrderBy(g => g.Name).ToList();
             var contact = context.Contacts.Find(id);
             return View(contact);
         }
@@ -44,7 +44,7 @@ namespace ContactsHillaker.Controllers
 
             {
                 ViewBag.Action = (contact.ContactId == 0) ? "Add" : "Edit";
-                ViewBag.Genres = context.Genres.OrderBy(g => g.Name).ToList();
+                ViewBag.Address = context.Contacts.OrderBy(g => g.Name).ToList();
                 return View(contact);
             }
         }

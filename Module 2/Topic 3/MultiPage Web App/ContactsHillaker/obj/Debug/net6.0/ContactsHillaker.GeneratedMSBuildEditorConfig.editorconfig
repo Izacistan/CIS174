@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hilla\CIS174\Module 2\Topic 3\MultiPage Web App\ContactsHillaker
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hilla/CIS174/Module 2/Topic 3/MultiPage Web App/ContactsHillaker/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hilla/CIS174/Module 2/Topic 3/MultiPage Web App/ContactsHillaker/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hilla/CIS174/Module 2/Topic 3/MultiPage Web App/ContactsHillaker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

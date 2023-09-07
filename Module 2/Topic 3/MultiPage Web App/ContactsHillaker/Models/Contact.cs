@@ -9,12 +9,12 @@ namespace ContactsHillaker.Models
         public int ContactId { get; set; }
 
         [Required(ErrorMessage = "Please enter a name.")]
-        [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Your name can only be letters.")]
+        [RegularExpression("^[a-zA-Z ]*$", ErrorMessage = "Your name can only contain letters and spaces.")]
         public string Name { get; set; } = string.Empty;
 
         // Phone number (string)
         [Required(ErrorMessage = "Please enter a phone number.")]
-        [RegularExpression(@"^\+(?:[0-9] ?){6,14}[0-9]$", ErrorMessage = "Invalid phone number format.")]
+        [RegularExpression(@"^\+?[0-9 ]{6,14}[0-9]$", ErrorMessage = "Invalid phone number format.")]
         public string Phone { get; set; }
 
         // Address (string)

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ContactsHillaker.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ContactsHillaker.Controllers
 {
@@ -11,7 +12,7 @@ namespace ContactsHillaker.Controllers
 
         public IActionResult Index()
         {
-            var contacts = context.contacts.Include(m => m.Genre).OrderBy(m => m.Name).ToList();
+            var contacts = context.Contacts.OrderBy(m => m.Name).ToList();
             return View(contacts);
         }
     }
