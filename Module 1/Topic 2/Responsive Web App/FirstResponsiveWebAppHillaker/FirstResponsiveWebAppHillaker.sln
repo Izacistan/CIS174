@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstResponsiveWebAppHillaker", "FirstResponsiveWebAppHillaker.csproj", "{D5817C90-074E-4AD5-9F82-F89DA936DC6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstResponsiveWebAppHillaker", "FirstResponsiveWebAppHillaker.csproj", "{D5817C90-074E-4AD5-9F82-F89DA936DC6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstResponsiveWebAppHillakerTests1", "..\FirstResponsiveWebAppHillakerTests1\FirstResponsiveWebAppHillakerTests1.csproj", "{02186C5B-86B0-4229-A6D3-61448CC2AF1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D5817C90-074E-4AD5-9F82-F89DA936DC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5817C90-074E-4AD5-9F82-F89DA936DC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5817C90-074E-4AD5-9F82-F89DA936DC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02186C5B-86B0-4229-A6D3-61448CC2AF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02186C5B-86B0-4229-A6D3-61448CC2AF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02186C5B-86B0-4229-A6D3-61448CC2AF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02186C5B-86B0-4229-A6D3-61448CC2AF1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

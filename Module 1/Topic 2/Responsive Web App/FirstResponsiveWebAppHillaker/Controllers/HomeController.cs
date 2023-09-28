@@ -10,6 +10,27 @@ namespace FirstResponsiveWebAppHillaker.Controllers
         {
             return View();
         }
+
+        public IActionResult StaticContent(string num)
+        {
+            return Content($"Static Content: {num}");
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Products()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Index(CalcAgeModel model)
         {

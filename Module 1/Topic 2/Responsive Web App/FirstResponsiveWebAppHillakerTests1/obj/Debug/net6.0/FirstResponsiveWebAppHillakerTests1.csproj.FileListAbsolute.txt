@@ -1,0 +1,6 @@
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillakerTests1\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillakerTests1\obj\Debug\net6.0\FirstResponsiveWebAppHillakerTests1.csproj.AssemblyReference.cache
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillakerTests1\obj\Debug\net6.0\FirstResponsiveWebAppHillakerTests1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillakerTests1\obj\Debug\net6.0\FirstResponsiveWebAppHillakerTests1.AssemblyInfoInputs.cache
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillakerTests1\obj\Debug\net6.0\FirstResponsiveWebAppHillakerTests1.AssemblyInfo.cs
+C:\Users\hilla\CIS174\Module 1\Topic 2\Responsive Web App\FirstResponsiveWebAppHillakerTests1\obj\Debug\net6.0\FirstResponsiveWebAppHillakerTests1.csproj.CoreCompileInputs.cache
