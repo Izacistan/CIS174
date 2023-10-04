@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Assignment 6.1";
+}
+
+@using AssignmentsHillaker.Models
+@model StudentListViewModel
+
+@{
+    string levelInput = Context.Request.Query["level"];
+    bool isValid = int.TryParse(levelInput, out int accessLevel);
+}
+
+@if (!isValid)
+{
+    <p>Please enter a valid integer for the access level.</p>
+}
+else if (accessLevel < 2)
+{
+    <p>You do not have a sufficient access level to view this data.</p>
+}
+else if (accessLevel >= 2 && accessLevel < 8)
+{
+    <h2>Student List</h2>
+    <ul>
+        @foreach (var student in Model.Students)
+        {
+            <li>@student.FirstName @student.LastName</li>
+        }
+    </ul>
+}
+else if (accessLevel >= 8)
+{
+    <h2>Hello Admin</h2>
+    <h3>Student List</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model.Students)
+            {
+                <tr>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.Grade</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
