@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model List<AssignmentsHillaker.Models.Data_Transfer_Olympics.Country>
+
+<style>
+    .flag-list_wrap {
+        background-color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3em 2em;
+        justify-content: center;
+        padding: 3em 1em;
+    }
+
+    .flag {
+        max-width: 100px;
+        min-height: 75px;
+    }
+</style>
+
+<form method="post" action="/Olympic/OlympicHome">
+    <div class="filter_options">
+        <label for="gameFilter">Filter by Game:</label>
+        <select id="gameFilter" name="selectedGame" onchange="this.form.submit()">
+            @foreach (var item in ViewBag.GameOptions)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+    </div>
+
+    <div class="filter_options">
+        <label for="categoryFilter">Filter by Category:</label>
+        <select id="categoryFilter" name="selectedCategory" onchange="this.form.submit()">
+            @foreach (var item in ViewBag.CategoryOptions)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+    </div>
+</form>
+
+<div class="flag-list_wrap">
+    @foreach (var country in Model)
+    {
+
+        <img class="flag" src="@Url.Content(country.FlagImagePath)" data-game="@country.Game" data-category="@country.Category" alt="@country.Name" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Country: @country.Name, Game: @country.Game, Category: @country.Category" />
+
+    }
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    });
+</script>
+
+

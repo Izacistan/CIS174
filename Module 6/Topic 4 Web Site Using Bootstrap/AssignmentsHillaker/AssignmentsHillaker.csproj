@@ -6,4 +6,31 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Content\flags\austria.jpg" />
+    <None Include="wwwroot\Content\flags\brazil.jpg" />
+    <None Include="wwwroot\Content\flags\canada.jpg" />
+    <None Include="wwwroot\Content\flags\china.jpg" />
+    <None Include="wwwroot\Content\flags\cyprus.jpg" />
+    <None Include="wwwroot\Content\flags\finland.jpg" />
+    <None Include="wwwroot\Content\flags\france.jpg" />
+    <None Include="wwwroot\Content\flags\germany.jpg" />
+    <None Include="wwwroot\Content\flags\great_britain.jpg" />
+    <None Include="wwwroot\Content\flags\italy.jpg" />
+    <None Include="wwwroot\Content\flags\jamaica.jpg" />
+    <None Include="wwwroot\Content\flags\japan.jpg" />
+    <None Include="wwwroot\Content\flags\mexico.jpg" />
+    <None Include="wwwroot\Content\flags\netherlands.jpg" />
+    <None Include="wwwroot\Content\flags\pakistan.jpg" />
+    <None Include="wwwroot\Content\flags\portugal.jpg" />
+    <None Include="wwwroot\Content\flags\russia.jpg" />
+    <None Include="wwwroot\Content\flags\slovakia.jpg" />
+    <None Include="wwwroot\Content\flags\sweden.jpg" />
+    <None Include="wwwroot\Content\flags\thailand.jpg" />
+    <None Include="wwwroot\Content\flags\ukraine.jpg" />
+    <None Include="wwwroot\Content\flags\united_states.jpg" />
+    <None Include="wwwroot\Content\flags\uruguay.jpg" />
+    <None Include="wwwroot\Content\flags\zimbabwe.jpg" />
+  </ItemGroup>
+
 </Project>
