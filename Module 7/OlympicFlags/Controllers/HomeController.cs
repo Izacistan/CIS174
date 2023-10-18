@@ -40,8 +40,10 @@ namespace OlympicFlags.Controllers
                 query = query.Where(
                     t => t.Game.GamesID.ToLower() == activeGame.ToLower());
 
-            // pass Countries to view as model
-            var countries = query.ToList();
+            var countries = query
+                .OrderBy(c => c.CountryName)
+                .ToList();
+
             return View(countries);
         }
     }

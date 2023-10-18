@@ -47,7 +47,7 @@ namespace OlympicFlags.Models
                 new { CountryID = "pak", CountryName = "Pakistan", CategoryID = "outdoor", GamesID = "paralympic", CountryFlag = "pakistan.jpg" },
                 new { CountryID = "zwe", CountryName = "Zimbabwe", CategoryID = "outdoor", GamesID = "paralympic", CountryFlag = "zimbabwe.jpg" },
                 new { CountryID = "fra", CountryName = "France", CategoryID = "indoor", GamesID = "youth", CountryFlag = "france.jpg" },
-                new { CountryID = "cyp", CountryName = "Cyrpus", CategoryID = "indoor", GamesID = "youth", CountryFlag = "cyprus.jpg" },
+                new { CountryID = "cyp", CountryName = "Cyprus", CategoryID = "indoor", GamesID = "youth", CountryFlag = "cyprus.jpg" },
                 new { CountryID = "rus", CountryName = "Russia", CategoryID = "indoor", GamesID = "youth", CountryFlag = "russia.jpg" },
                 new { CountryID = "fin", CountryName = "Finland", CategoryID = "outdoor", GamesID = "youth", CountryFlag = "finland.jpg" },
                 new { CountryID = "svk", CountryName = "Slovakia", CategoryID = "outdoor", GamesID = "youth", CountryFlag = "slovakia.jpg" },
