@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using OlympicFlags.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add EF Core DI
+builder.Services.AddDbContext<CountryContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CountryContext")));
 
 var app = builder.Build();
 
@@ -21,7 +27,12 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "custom",
+    pattern: "{controller}/{action}/cate/{activeCategory}/game/{activeGame}");
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();

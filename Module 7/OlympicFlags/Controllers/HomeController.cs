@@ -19,7 +19,7 @@ namespace OlympicFlags.Controllers
             ViewBag.ActiveCategory = activeCategory;
             ViewBag.ActiveGame = activeGame;
 
-            // get list of conferences and divisions from database
+            // get list of Categories and Games from database
             List<Category> categories = context.Categories.ToList();
             List<Games> games = context.Game.ToList();
 
@@ -41,8 +41,8 @@ namespace OlympicFlags.Controllers
                     t => t.Game.GamesID.ToLower() == activeGame.ToLower());
 
             // pass Countries to view as model
-            var teams = query.ToList();
-            return View(teams);
+            var countries = query.ToList();
+            return View(countries);
         }
     }
 }

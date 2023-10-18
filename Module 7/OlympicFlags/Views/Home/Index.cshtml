@@ -3,8 +3,11 @@
     ViewData["Title"] = "Olympic Games";
     string Active(string filter, string selected)
     {
-        return (filter.ToLower() == selected.ToLower()) ? "active" : "";
+        // Check for null or empty values before comparison
+        return (!string.IsNullOrEmpty(filter) && !string.IsNullOrEmpty(selected) &&
+                filter.ToLower() == selected.ToLower()) ? "active" : "";
     }
+
 }
 
 <div class="row">
@@ -14,10 +17,10 @@
             @foreach (Category category in ViewBag.Categories)
             {
                 <a asp-action="Index"
-                   asp-route-activeConf="@category.CategoryID"
-                   asp-route-activeDiv="@ViewBag.ActiveDiv"
+                   asp-route-activeCategory="@category.CategoryID"
+                   asp-route-activeGame="@ViewBag.activeGame"
                    class="list-group-item @Active(category.CategoryID,
-                                           ViewBag.ActiveConf)">
+                                           ViewBag.activeCategory)">
                     @category.CategoryName
                 </a>
             }
@@ -27,10 +30,10 @@
             @foreach (Games games in ViewBag.Games)
             {
                 <a asp-action="Index"
-                   asp-route-activeConf="@ViewBag.ActiveCategory"
-                   asp-route-activeDiv="@games.GamesID"
+                   asp-route-activeCategory="@ViewBag.ActiveCategory"
+                   asp-route-activeGame="@games.GamesID"
                    class="list-group-item @Active(games.GamesID,
-                                           ViewBag.ActiveDiv)">
+                                           ViewBag.activeGame)">
                     @games.GamesName
                 </a>
             }
