@@ -11,8 +11,8 @@
             @foreach (Category category in Model.Categories)
             {
                 <a asp-action="Index"
-                   asp-route-activeConf="@category.CategoryID"
-                   asp-route-activeDiv="@Model.ActiveGame"
+                   asp-route-activeCategory="@category.CategoryID"
+                   asp-route-activeGame="@Model.ActiveGame"
                    class="list-group-item @Model.CheckActiveCategory(category.CategoryID)">
                     @category.CategoryName
                 </a>
@@ -23,8 +23,8 @@
             @foreach (Games game in Model.Games)
             {
                 <a asp-action="Index"
-                   asp-route-activeConf="@Model.ActiveCategory"
-                   asp-route-activeDiv="@game.GamesID"
+                   asp-route-activeCategory="@Model.ActiveCategory"
+                   asp-route-activeGame="@game.GamesID"
                    class="list-group-item @Model.CheckActiveGame(game.GamesID)">
                     @game.GamesName
                 </a>

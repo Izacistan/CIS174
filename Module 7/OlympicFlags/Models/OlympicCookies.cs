@@ -23,7 +23,7 @@ namespace OlympicFlags.Models
             List<string> ids = myCountries.Select(t => t.CountryID).ToList();
             string idsString = String.Join(Delimiter, ids);
             CookieOptions options = new CookieOptions { Expires = DateTime.Now.AddDays(30) };
-            RemoveMyCountryIds();     // delete old cookie first
+            RemoveMyCountryIds();
             responseCookies.Append(CountriesKey, idsString, options);
         }
 
@@ -31,7 +31,7 @@ namespace OlympicFlags.Models
         {
             string cookie = requestCookies[CountriesKey];
             if (string.IsNullOrEmpty(cookie))
-                return new string[] { };   // empty string array
+                return new string[] { };
             else
                 return cookie.Split(Delimiter);
         }

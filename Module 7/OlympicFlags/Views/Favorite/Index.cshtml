@@ -31,7 +31,10 @@
                 <li class="list-group-item">
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="~/images/@country.CountryFlag" alt="@Model.Country.CountryName" />
+                            @if (country.CountryFlag != null)
+                            {
+                                <img src="~/images/@country.CountryFlag" alt="@country.CountryName" />
+                            }
                         </div>
                         <div class="col-sm-4">
                             @country.CountryName
@@ -42,6 +45,7 @@
                     </div>
                 </li>
             }
+
         </ul>
     </div>
 </div>
