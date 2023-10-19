@@ -3,6 +3,10 @@ using OlympicFlags.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// must be called before AddControlWithViews()
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -22,13 +26,15 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseSession();
+
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "custom",
-    pattern: "{controller}/{action}/cate/{activeCategory}/game/{activeGame}");
+    pattern: "{controller=Home}/{action=Index}/cate/{activeCategory}/game/{activeGame}");
 
 app.MapControllerRoute(
     name: "default",

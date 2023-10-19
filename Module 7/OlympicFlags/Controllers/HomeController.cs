@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 using OlympicFlags.Models;
 using System.Diagnostics;
 
@@ -15,23 +16,33 @@ namespace OlympicFlags.Controllers
 
         public ViewResult Index(string activeCategory = "all", string activeGame = "all")
         {
-            // store selected Category and Games IDs in view bag
-            ViewBag.ActiveCategory = activeCategory;
-            ViewBag.ActiveGame = activeGame;
 
-            // get list of Categories and Games from database
-            List<Category> categories = context.Categories.ToList();
-            List<Games> games = context.Game.ToList();
+            var session = new OlympicSession(HttpContext.Session);
+            session.SetActiveCategory(activeCategory);
+            session.SetActiveGames(activeGame);
 
-            // insert default "All" value at front of each list
-            categories.Insert(0, new Category { CategoryID = "all", CategoryName = "All" });
-            games.Insert(0, new Games { GamesID = "all", GamesName = "All" });
+            int? count = session.GetMyCountryCount();
+            if (count == null)
+            {
+                var cookies = new OlympicCookies(HttpContext.Request.Cookies);
+                string[] ids = cookies.GetMyCountryIds();
 
-            // store lists in view bag
-            ViewBag.Categories = categories;
-            ViewBag.Games = games;
+                List<Country> myCountries = new List<Country>();
+                if (ids.Length > 0)
+                    myCountries = context.Countries.Include(t => t.Category)
+                        .Include(t => t.Game)
+                        .Where(t => ids.Contains(t.CountryID)).ToList();
+                session.SetMyCountries(myCountries);
+            }
 
-            // get Countries - filter by Category and Games
+            var model = new CountryListViewModel
+            {
+                ActiveCategory = activeCategory,
+                ActiveGame = activeGame,
+                Categories = context.Categories.ToList(),
+                Games = context.Game.ToList()
+            };
+
             IQueryable<Country> query = context.Countries;
             if (activeCategory != "all")
                 query = query.Where(
@@ -39,12 +50,51 @@ namespace OlympicFlags.Controllers
             if (activeGame != "all")
                 query = query.Where(
                     t => t.Game.GamesID.ToLower() == activeGame.ToLower());
+            model.Countries = query.ToList();
 
-            var countries = query
-                .OrderBy(c => c.CountryName)
-                .ToList();
+            return View(model);
+        }
 
-            return View(countries);
+        public IActionResult Details(string id)
+        {
+            var session = new OlympicSession(HttpContext.Session);
+            var model = new CountryViewModel
+            {
+                Country = context.Countries
+                    .Include(t => t.Category)
+                    .Include(t => t.Game)
+                    .FirstOrDefault(t => t.CountryID == id),
+                ActiveGame = session.GetActiveGames(),
+                ActiveCategory = session.GetActiveCategory()
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        public RedirectToActionResult Add(CountryViewModel model)
+        {
+            model.Country = context.Countries
+                .Include(t => t.Category)
+                .Include(t => t.Game)
+                .Where(t => t.CountryID == model.Country.CountryID)
+                .FirstOrDefault();
+
+            var session = new OlympicSession(HttpContext.Session);
+            var countries = session.GetMyCountries();
+            countries.Add(model.Country);
+            session.SetMyCountries(countries);
+
+            var cookies = new OlympicCookies(HttpContext.Response.Cookies);
+            cookies.SetMyCountryIds(countries);
+
+            TempData["message"] = $"{model.Country.CountryName} has added to your favorites";
+
+            return RedirectToAction("Index",
+                new
+                {
+                    ActiveCategory = session.GetActiveCategory(),
+                    ActiveGame = session.GetActiveGames()
+                });
         }
     }
 }
