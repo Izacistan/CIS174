@@ -34,7 +34,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "custom",
-    pattern: "{controller}/{action}/cate/{activeCategory}/game/{activeGame}");
+    pattern: "{controller}/{action}/{activeCategory?}/{activeGame?}");
 
 app.MapControllerRoute(
     name: "default",

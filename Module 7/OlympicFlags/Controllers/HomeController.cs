@@ -14,7 +14,7 @@ namespace OlympicFlags.Controllers
             context = ctx;
         }
 
-        public ViewResult Index(string activeCategory = "all", string activeGame = "all")
+        public ViewResult Index(CountryViewModel model)
         {
 
             var session = new OlympicSession(HttpContext.Session);
